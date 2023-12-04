@@ -1,0 +1,242 @@
+body {
+    /*background-image: url(VBR3.gif);
+    background-size: 1518px 850px;
+    background-attachment: fixed;*/
+    position: relative;
+    background: #DCDDDF url(https://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
+    color: #000;
+    font: 14px Arial;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+.Zagolovok {
+    text-align: center;
+    color: #4682B4;
+}
+
+/*.container{
+    position: relative;
+    width: 80%;
+    margin: 100px;
+}*/
+header{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+    margin-top: -8px;
+}
+header nav{
+    margin-left: 30px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.modal{
+    width:400px;
+    height:150px;
+    background: lightblue;
+    position:fixed;
+    left:40%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+header ol {
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    width: 200px;
+    float:left;
+}
+ol {
+    margin-left: 200px;
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    float:left;
+}
+
+
+
+
+li {
+    text-align: left;
+}
+    li:hover{
+        background-color:rgba(0,0,0,0.4);
+    }
+footer a {
+    color: #F0E68C;
+    text-decoration: none;
+}
+
+    footer a:visited {
+        color: antiquewhite;
+    }
+
+.ZhesTb {
+    width: 200px;
+    position: relative;
+    height: 200px;
+}
+
+button {
+    border-radius: 9px;
+    /*background-image: url(but.jpg);*/
+    /*height: 50px;*/
+    /*font-size: 16px;
+    background-size: 185px;*/
+    text-align: center;
+    /*margin-bottom: 10px;*/
+    /*position: absolute;*/
+    /*bottom:50px;
+    right:50px;*/
+}
+.footer {
+    position: relative;
+    color: #696969;
+    background-color: #778899;
+    margin: 0px;
+
+    width:100%;
+    bottom:-10px;
+}
+
+.konez {
+    white-space: pre;
+    white-space: pre;
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+    width: 350px;
+    padding: 5px;
+}
+
+.konez2 {
+    color: #C0C0C0;
+}
+
+    .konez2:visited {
+        color: #A9A9A9;
+    }
+
+.Polny_Konez {
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    clear: left;
+    text-align:center;
+}
+
+.konez3 {
+    color: #C0C0C0;
+    white-space: pre;
+    text-align: left;
+    float: left;
+    padding: 5px;
+}
+
+.konez4 {
+    color: #696969;
+}
+
+    .konez4:visited {
+        color: #A9A9A9;
+    }
+
+marquee {
+    color: #FF8C00;
+}
+
+.knop_ssbl {
+    color: antiquewhite;
+}
+
+
+.ZhesTb2 {
+    width: 195px;
+    float: left;
+    display: block;
+    height: 350px;
+    position: relative;
+    overflow: scroll;
+    text-align: center;
+}
+
+    .ZhesTb2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .ZhesTb2:hover {
+        border-left: 2px solid red;
+    }
+
+#first {
+    border-left: none;
+}
+
+#last {
+    border-right: none;
+}
+
+.knop_ssbl {
+    color: antiquewhite;
+    left: 20px;
+}
+
+.knop_ssblN {
+    position: absolute;
+    left: 1360;
+}
+
+.premium {
+    color: #FFD700;
+}
+
+.kollection {
+    color: #00BFFF;
+}
+.logo{
+    text-align:center;
+}
+header nav ul {
+    position: relative;
+    text-align: center;
+    color: #DEB887;
+    font-size: 20px;
+    width: fit-content;
+    height: 15%;
+    clear:left;
+}
+header nav ul a{
+    color: #DEB887;
+    font-size: 18px;
+}
+.newKonez{
+
+}
+.Info {
+    color: #A9A9A9;
+    font-size: 20px;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+    .Info:hover {
+        background: #8B0000;
+        color: #E6E6FA;
+    }
+h1{
+    text-align:center;
+}
+
+h1{ font-size:28px;}
+h2{ font-size:26px;}
+h3{ font-size:18px;}
+h4{ font-size:16px;}
+h5{ font-size:14px;}
+h6{ font-size:12px;}
+h1,h2,h3,h4,h5,h6{ color:#563D64;}
+small{ font-size:10px;}
